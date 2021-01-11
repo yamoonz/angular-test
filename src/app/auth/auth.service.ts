@@ -3,7 +3,6 @@ import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import { catchError, tap } from 'rxjs/operators';
 import { throwError, Subject } from 'rxjs';
  import { User } from './user.model';
-import { User } from 'src/app/model/user.interface';
 
 export interface AuthResponseData {
   kind: string;
@@ -73,11 +72,11 @@ export class AuthService {
     token: string,
     expiresIn: number,
     id?:number,
-    user?:string,
+    name?:string,
     profileImage?:string,
   ) {
      const expirationDate = new Date(new Date().getTime() + expiresIn * 1000);
-     const user = new User(email, userId, token, expirationDate,);
+     const user = new User(email, userId, token, expirationDate);
      this.user.next(user);
   }
 
