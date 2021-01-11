@@ -1,0 +1,21 @@
+-------------------- Auto-Git Log --------------------
+		Mon Jan 11 2021 15:00:47 GMT+0300 (Arabian Standard Time)
+------------------------------------------------------
+
+Modified files:
+* package-lock.json
+* package.json
+* src/app/profile/profile.component.html
+* src/app/profile/profile.component.ts
+
+
+Created files:
+* .autogit/logs/log-11-0-2021-14-30-36.txt
+* src/app/services/user-service.spec.ts
+* src/app/services/user.service.ts
+
+
+Deleted files:
+
+
+Renamed files:

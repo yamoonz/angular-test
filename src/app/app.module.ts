@@ -9,6 +9,7 @@ import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 import { AuthComponent } from './auth/auth.component';
 import { RouterModule } from '@angular/router';
 import {HttpClientModule} from '@angular/common/http';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 
@@ -33,7 +34,8 @@ RouterModule.forRoot([
   {path:'profile', component: ProfileComponent},
   {path:'products', component: ProductsComponent}
 
-])
+]),
+BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
