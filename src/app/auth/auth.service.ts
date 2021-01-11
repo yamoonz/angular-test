@@ -12,6 +12,7 @@ export interface AuthResponseData {
   expiresIn: string;
   localId: string;
   registered?: boolean;
+  username:string,
 }
 
 @Injectable({ providedIn: 'root' })
@@ -70,10 +71,7 @@ export class AuthService {
     email: string,
     userId: string,
     token: string,
-    expiresIn: number,
-    id?:number,
-    name?:string,
-    profileImage?:string,
+    expiresIn: number
   ) {
      const expirationDate = new Date(new Date().getTime() + expiresIn * 1000);
      const user = new User(email, userId, token, expirationDate);
