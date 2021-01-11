@@ -1,0 +1,21 @@
+-------------------- Auto-Git Log --------------------
+		Mon Jan 11 2021 17:01:17 GMT+0300 (Arabian Standard Time)
+------------------------------------------------------
+
+Modified files:
+* src/app/auth/auth.component.html
+* src/app/auth/auth.service.ts
+* src/app/profile/profile.component.html
+* src/app/profile/profile.component.ts
+
+
+Created files:
+* .autogit/logs/log-11-0-2021-16-31-10.txt
+
+
+Deleted files:
+* src/app/services/user-service.spec.ts
+* src/app/services/user.service.ts
+
+
+Renamed files:
