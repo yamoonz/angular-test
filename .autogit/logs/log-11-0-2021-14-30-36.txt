@@ -1,0 +1,15 @@
+-------------------- Auto-Git Log --------------------
+		Mon Jan 11 2021 14:30:36 GMT+0300 (Arabian Standard Time)
+------------------------------------------------------
+
+Modified files:
+* src/app/profile/profile.component.ts
+
+
+Created files:
+
+
+Deleted files:
+
+
+Renamed files:
