@@ -14,13 +14,15 @@ export class ProductsComponent implements OnInit {
  // this property value is bound to a different property name
  // when this component is instantiated in a template.
 @Output() productSelected= new EventEmitter<void>();
-  products: Products[] =[
-  new Products (' A Red Headphone', 'this is a simplt test','https://pcbonlineshop.com/var/photo/product/2000x4000/4/176/4.jpg'),
-  ];
+  
   constructor() { }
 
   ngOnInit()  {
-    console.log(this.Product, 'hiuytrewq')
+    this.Product ={
+       title: ' A Red Headphone',
+       description: 'this is a simplt test',
+       img: 'https://pcbonlineshop.com/var/photo/product/2000x4000/4/176/4.jpg'),
+    };
   }
 onSelected(){
   this.productSelected.emit();
