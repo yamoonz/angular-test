@@ -1,4 +1,5 @@
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
+import { title } from 'process';
 import { Products } from './products.module';
 
 @Component({
@@ -7,21 +8,17 @@ import { Products } from './products.module';
   styleUrls: ['./products.component.css']
 })
 export class ProductsComponent implements OnInit {
- // This property is bound using its original name.
- @Input() title: string;
- @Input() Product:any;
-          
- // this property value is bound to a different property name
- // when this component is instantiated in a template.
+ @Input('title') title: string;
+ @Input('products') products:any;
 @Output() productSelected= new EventEmitter<void>();
   
   constructor() { }
 
   ngOnInit()  {
-    this.Product ={
+    this.products ={
        title: ' A Red Headphone',
        description: 'this is a simplt test',
-       img: 'https://pcbonlineshop.com/var/photo/product/2000x4000/4/176/4.jpg'),
+       img: 'https://pcbonlineshop.com/var/photo/product/2000x4000/4/176/4.jpg',
     };
   }
 onSelected(){
