@@ -1,10 +1,13 @@
 <h1>Welcome to your Profile Page <3 </h1>
-    <div *ngIf="userId" class="main-div">
-        <div class="card">
-            <div class="header">
-                <div class="avatar">
-                    <img src=""
+        <div *ngIf="userId" class="main-div">
+            <div class="card">
+                <div class="header">
+                    <div class="avatar">
+                        <img src="http://localhost:4200/api/auth/profile-image/{{userId.profileImage}}"
+                            class="header-image">
+                    </div>
+                    <div class="title"> {{userId.name}}</div>
+                    <div class="email">{{.email}}</div>
                 </div>
-            </div>        
+            </div>
         </div>
-    </div>
