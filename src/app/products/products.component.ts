@@ -7,20 +7,22 @@ import { Products } from './products.module';
   templateUrl: './products.component.html',
   styleUrls: ['./products.component.css']
 })
-export class ProductsComponent implements OnInit {
-  @Input('img') img: any;
+export class ProductsComponent implements OnInit { 
+  @Input('products') products;
+  @Input('name') username: string;
  @Input('title') title: string;
- @Input('products') products:any;
 @Output() productSelected= new EventEmitter<void>();
+  description: any;
+  img: any;
   
   constructor() { }
 
   ngOnInit()  {
     this.products ={
-      name:'This is a Fancy Red Headphone',
-       title: ' A Red Headphone',
-       description: 'this is a simplt test',
-       img: 'https://pcbonlineshop.com/var/photo/product/2000x4000/4/176/4.jpg',
+      name:this.username,
+       title: this.title,
+       description: this.description,
+       img: this.img
     };
   }
 onSelected(){
