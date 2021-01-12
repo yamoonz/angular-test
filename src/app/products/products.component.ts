@@ -8,9 +8,12 @@ import { Products } from './products.module';
   styleUrls: ['./products.component.css']
 })
 export class ProductsComponent implements OnInit { 
-  @Input('products') products;
+   products:any;
   @Input('name') username: string;
  @Input('title') title: string;
+ @Input('rating') rating:number;
+ @Input('number-of-sales') numberOfSales:number;
+ @Input('last-updated') lastUpdated:string;
 @Output() productSelected= new EventEmitter<void>();
   description: any;
   img: any;
