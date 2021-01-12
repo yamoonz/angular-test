@@ -7,19 +7,17 @@ import { Products } from './products.module';
   styleUrls: ['./products.component.css']
 })
 export class ProductsComponent implements OnInit { 
-    @Input ('products') products:any;
-@Output() productSelected= new EventEmitter<void>();
+  @Input ('products') products:any;
+
   
   
   constructor() { }
 
   ngOnInit()  {
-    this.products ={
-
-    };
+  
   }
 onSelected(){
-  this.productSelected.emit();
+ 
 }
 
 
