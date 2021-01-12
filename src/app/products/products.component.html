@@ -6,14 +6,14 @@
 </div>
 <div class="row">
     <div class="col-xs-12">
-        <a href="#" class="list-group-item clearfix" *ngFor="let product of products">
+        <a href="#" class="list-group-item clearfix">
             <div class="pull-left">
-                <h4 class="list-group-item-heading">{{product.name}}</h4>
-                <p class="list-group-item-heading">{{ product.description}}</p>
-                <h6 class="list-group-item-heading">{{product.title}</h6>
+                <h4 class="list-group-item-heading">{{products.name}}</h4>
+                <p class="list-group-item-heading">{{ products.description}}</p>
+                <h6 class="list-group-item-heading">{{products.title}}</h6>
             </div>
             <span class="pull-right">
-                <img [src]="product.imagePath" alt={{product.name}} class="img-responsive" style="max-height: 50px;">
+                <img [src]="products.imagePath" alt={{products.name}} class="img-responsive" style="max-height: 50px;">
             </span>
         </a>
     </div>

@@ -11,26 +11,13 @@ import { Products } from './products/products.module';
 })
 export class AppComponent {
   loadedFeature='product';
-  products= [
+  products= 
     {
-      name : "name",
-      title : "title",
-      rating : "rating"
-    },
-    {
-      name : "name",
-      title : "title",
-      rating : "rating"
-    },
-    {
-      name : "name",
-      title : "title",
-      rating : "rating"
+      name : "Cartzilla",
+      title : "by Themes ",
+      rating : "five stars (22)",
+      img:"",
     }
-
-  ]
-
-
   onNavigate(feature: string) {
     this.loadedFeature = feature;
   }
