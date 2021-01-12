@@ -9,24 +9,19 @@ import { Products } from './products.module';
 })
 export class ProductsComponent implements OnInit { 
      products:any;
-  @Input('name') username: string;
- @Input('title') title: string;
- @Input('price') price:number;
- @Input('rating') rating:number;
- @Input('number-of-sales') numberOfSales:number;
- @Input('last-updated') lastUpdated:string;
 @Output() productSelected= new EventEmitter<void>();
-  description: any;
-  img: any;
+  
   
   constructor() { }
 
   ngOnInit()  {
     this.products ={
-      name:this.username,
-       title: this.title,
-       description: this.description,
-       img: this.img
+    name:"Cartizlla",
+   title: "by Themes in Wooker",
+   price:"59$",
+   rating:"five stars (22)",
+   numberOfSales: "371 sales"
+
     };
   }
 onSelected(){
