@@ -14,11 +14,12 @@ export class AppComponent {
   products= 
     {
       name : "Cartzilla - Digital Market",
-      title : "by Themes ",
+      title : "by MadrasThemes in Wooco ",
       description:"Multi Vendor Digital Market Place With Dokan",
       price:"59$",
       rating:"five stars (22) ",
       sales :"371 sales",
+      lastUpdated:" last updated: 16 Dec 20",
       imagePath:"https://tutsflow.com/wp-content/uploads/2020/12/cartzilla-wp-theme.jpg",
     }
   onNavigate(feature: string) {

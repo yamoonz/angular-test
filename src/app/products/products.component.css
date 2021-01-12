@@ -9,3 +9,21 @@
 .stars{
     height: 30px;
 }
+.price{
+    color:black;
+    font-size: 26px;
+    font-weight: bold;
+    padding-top: 15px;
+}
+.tags{
+    padding-top: 10px;
+}
+.sales{
+    color: grey;
+}
+.shoppingCart{
+    max-height: 30px;
+}
+.preview{
+    max-height: 50px;
+}
