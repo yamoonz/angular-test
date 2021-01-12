@@ -8,6 +8,7 @@ import { Products } from './products.module';
   styleUrls: ['./products.component.css']
 })
 export class ProductsComponent implements OnInit {
+  @Input('img') img: any;
  @Input('title') title: string;
  @Input('products') products:any;
 @Output() productSelected= new EventEmitter<void>();
@@ -16,6 +17,7 @@ export class ProductsComponent implements OnInit {
 
   ngOnInit()  {
     this.products ={
+      name:'This is a Fancy Red Headphone',
        title: ' A Red Headphone',
        description: 'this is a simplt test',
        img: 'https://pcbonlineshop.com/var/photo/product/2000x4000/4/176/4.jpg',
