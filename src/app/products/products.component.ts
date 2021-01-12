@@ -8,9 +8,10 @@ import { Products } from './products.module';
   styleUrls: ['./products.component.css']
 })
 export class ProductsComponent implements OnInit { 
-   products:any;
+     products:any;
   @Input('name') username: string;
  @Input('title') title: string;
+ @Input('price') price:number;
  @Input('rating') rating:number;
  @Input('number-of-sales') numberOfSales:number;
  @Input('last-updated') lastUpdated:string;
