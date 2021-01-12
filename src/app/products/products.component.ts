@@ -8,7 +8,7 @@ import { Products } from './products.module';
   styleUrls: ['./products.component.css']
 })
 export class ProductsComponent implements OnInit { 
-     products:any;
+    @Input ('products') products:any;
 @Output() productSelected= new EventEmitter<void>();
   
   
@@ -16,11 +16,6 @@ export class ProductsComponent implements OnInit {
 
   ngOnInit()  {
     this.products ={
-    name:"Cartizlla",
-   title: "by Themes in Wooker",
-   price:"59$",
-   rating:"five stars (22)",
-   numberOfSales: "371 sales"
 
     };
   }
