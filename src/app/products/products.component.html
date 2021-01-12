@@ -1,22 +1,20 @@
-<div class="row">
-    <div class="col-xs-12">
-        <button class="btn vtb-success"> New Product</button>
-    </div>
-    <hr>
-</div>
-<div class="row">
-    <div class="col-xs-12">
-            <div class="pull-left">
-                <h4 class="list-group-item-heading">{{products.name}}</h4>
-                <p class="list-group-item-heading">{{ products.description}}</p>
-                <h6 class="list-group-item-heading">{{products.title}}</h6>
-                <h6 class="list-group-item-heading">{{products.price}}</h6>
-                <h6 class="list-group-item-heading">{{products.rating}}</h6>
-                <h3 class="list-group-item-heading">{{products.sales}}</h3>
+<div class="container">
+    <div class="row">
+        <div class="col-md-5">
+                <div class="col-md-7">
+                    <div class="pull-left">
+                        <h4 class="list-group-item-heading">{{products.name}}</h4>
+                        <p class="list-group-item-heading">{{ products.description}}</p>
+                        <h6 class="list-group-item-heading">{{products.title}}</h6>
+                        <h6 class="list-group-item-heading">{{products.price}}</h6>
+                        <h6 class="list-group-item-heading">{{products.rating}}</h6>
+                        <h3 class="list-group-item-heading">{{products.sales}}</h3>
+                    </div>
+                    <span class="pull-right">
+                        <img [src]="products.imagePath" alt={{products.name}} class="img-responsive"
+                            style="max-height: 100px;">
+                    </span>
+                </div>
             </div>
-            <span class="pull-right">
-                <img [src]="products.imagePath" alt={{products.name}} class="img-responsive" style="max-height: 50px;">
-            </span>
-      
+        </div>
     </div>
-</div>

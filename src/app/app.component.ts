@@ -19,7 +19,7 @@ export class AppComponent {
       price:"59$",
       rating:"five stars (22) ",
       sales :"371 sales",
-      imagePath:"https://tutsflow.com/wp-content/uploads/2020/12/cartzilla-wp-theme.jpghttps://tutsflow.com/wp-content/uploads/2020/12/cartzilla-wp-theme.jpg",
+      imagePath:"https://tutsflow.com/wp-content/uploads/2020/12/cartzilla-wp-theme.jpg",
     }
   onNavigate(feature: string) {
     this.loadedFeature = feature;
