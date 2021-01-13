@@ -19,7 +19,6 @@
                     ngModel name="password" id="password" type="password" class="form-control form-control-m">
                 <div class="alert alert-danger" *ngIf="password.touched && !password.valid"> Password doesnt match the
                     required charachters</div>
-                <!-- <div *ngIf="password.errors.minlength"> Password doesnt match the required charachters </div> -->
             </div>
             <div>
                 <button class="btn btn-danger" type="submit" [disabled]="!authForm.valid">

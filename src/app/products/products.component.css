@@ -6,6 +6,9 @@
     font-weight: bold;
 
 }
+.d-block{
+    max-width: 40rem;
+}
 .stars{
     height: 30px;
 }
@@ -31,10 +34,10 @@
     max-height: 40px;
 }
 .divider {
-    position: fixed;
-    top: 50px;
+    position: relative;
+    top: 80px;
     left: 53rem;
     width: 1.5px;
-    bottom: 30px;
+    bottom: 0px;
     background-color: rgb(228, 228, 228);
   }
