@@ -30,7 +30,7 @@ import { CommonModule } from '@angular/common';
 BrowserModule, FormsModule, HttpClientModule,CommonModule,
 RouterModule.forRoot([
   {
-    path:'', component:HeaderComponent
+    path:'app', component:AppComponent
   },
   {path:'auth', component: AuthComponent},
   {path:'profile', component: ProfileComponent},
