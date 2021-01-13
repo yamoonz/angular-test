@@ -33,11 +33,3 @@
    margin-right: 220px;
     max-height: 40px;
 }
-.divider {
-    position: relative;
-    top: 80px;
-    left: 53rem;
-    width: 1.5px;
-    bottom: 0px;
-    background-color: rgb(228, 228, 228);
-  }
