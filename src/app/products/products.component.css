@@ -31,8 +31,8 @@
     max-height: 40px;
 }
 .divider {
-    position:fixed;
-    top: 30px;
+    position: fixed;
+    top: 50px;
     left: 53rem;
     width: 1.5px;
     bottom: 30px;

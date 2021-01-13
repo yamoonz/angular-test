@@ -43,17 +43,7 @@ export class AppComponent {
       lastUpdated:" last updated: 13 Jan 21",
       imagePath:"https://i.pinimg.com/originals/f4/1a/17/f41a179d2fc15c79a65e81f3d3843a96.jpg",
     },
-    {
-      name : "Cartzilla - Digital Market",
-      title : "by MadrasThemes in Wooco ",
-      tags:"Electronics, Foo, Bar ",
-      description:"Multi Vendor Digital Market Place With Dokan",
-      price:"59$",
-      rating:"five stars (22) ",
-      sales :"371 sales",
-      lastUpdated:" last updated: 16 Dec 20",
-      imagePath:"https://tutsflow.com/wp-content/uploads/2020/12/cartzilla-wp-theme.jpg",
-    }
+  
   ]
   onNavigate(feature: string) {
     this.loadedFeature = feature;
