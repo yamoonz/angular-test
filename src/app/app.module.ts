@@ -10,18 +10,21 @@ import { AuthComponent } from './auth/auth.component';
 import { RouterModule } from '@angular/router';
 import {HttpClientModule} from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CommonModule } from '@angular/common';
 
 
 
 
 @NgModule({
   declarations: [
+    CommonModule,
     AppComponent,
     HeaderComponent,
     ProductsComponent,
     ShoppingListComponent,
     AuthComponent,
     ProfileComponent,
+    CommonComponent,
     
   ],
   imports: [
@@ -32,7 +35,8 @@ RouterModule.forRoot([
   },
   {path:'auth', component: AuthComponent},
   {path:'profile', component: ProfileComponent},
-  {path:'products', component: ProductsComponent}
+  {path:'products', component: ProductsComponent},
+  {path:'shopping-list', component: ShoppingListComponent}
 
 ]),
 BrowserAnimationsModule
