@@ -17,18 +17,17 @@ import { CommonModule } from '@angular/common';
 
 @NgModule({
   declarations: [
-    CommonModule,
     AppComponent,
     HeaderComponent,
     ProductsComponent,
     ShoppingListComponent,
     AuthComponent,
     ProfileComponent,
-    CommonComponent,
+    
     
   ],
   imports: [
-BrowserModule, FormsModule, HttpClientModule,
+BrowserModule, FormsModule, HttpClientModule,CommonModule,
 RouterModule.forRoot([
   {
     path:'', component:HeaderComponent

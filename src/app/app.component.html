@@ -1,9 +1,10 @@
 <header (featureSelected)="onNavigate('$event')"></header>
-<app-products [products]="products"> </app-products>
+
 <div class="container">
   <div class="row">
     <div class="col-md-12">
       <router-outlet></router-outlet>
+      <app-products [products]="products"> </app-products>
     </div>
   </div>
 </div>
