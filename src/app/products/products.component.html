@@ -7,7 +7,7 @@
                         <img class="d-block w-100" [src]="product.imagePath" alt={{product.name}} alt="First slide">
                     </div>
                 </div>
-                <p class="tags">Tags: marketplace , electronics </p>
+                <p class="tags">{{product.tags}} </p>
             </div>
         </div>
         <div class="col-sm">
@@ -15,9 +15,7 @@
             <p>{{product.title}}</p>
             <ul>
                 <li>{{ product.description}} </li>
-                <li>Electronic Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius qui provident atque fuga
-                    maxime, suscipit laboriosam quasi in molestias illum iusto voluptatibus nostrum ea, sit, nesciunt
-                    ducimus totam doloribus quibusdam.</li>
+                <li>{{product.description}}</li>
             </ul>
         </div>
         <div class="col-sm">
@@ -28,12 +26,12 @@
                 <img class="p-2 grey-heart"
                     src="https://www.clipartkey.com/mpngs/m/129-1293437_heart-icon-grey-png.png">
             </div>
-            <p class="price"> $59</p>
+            <p class="price"> {{product.price}}</p>
             <img src="https://lh3.googleusercontent.com/proxy/KspM1weMsz771atks1UWR3cGR28se9kH0AX4bOVqw6xvuUUs-pMmb5msEMGIjo7Tu03Idq_jFKmrZdtYWSLs0DxfM5tmpujKxv_ckgfgIVlOHZPzqpKNd7AQvwRTTEY"
                 class="stars">
             <div>(22)</div>
             <p class="sales">{{product.sales}} </p>
-            <p class="lastUpdated">Last Updated: 16 Dec 20 </p>
+            <p class="lastUpdated">{{product.lastUpdated}} </p>
             <button class="btn btn-light preview"> Preview</button> <img class="shoppingCart"
                 src="https://image.shutterstock.com/image-vector/vector-shopping-cart-icon-260nw-155241989.jpg">
             <hr>
