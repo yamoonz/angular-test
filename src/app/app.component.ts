@@ -2,8 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
 import { map } from 'rxjs/operators'; 
 import { title } from 'process';
-import { NgbRating } from '@ng-bootstrap/ng-bootstrap';
-import { Products } from './products/products.module';
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
