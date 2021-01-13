@@ -33,3 +33,8 @@
    margin-right: 250px;
     max-height: 40px;
 }
+   .vertical { 
+    border-left: 6px solid grey; 
+    height: 300px;  
+    left: 50%; 
+}
