@@ -6,7 +6,8 @@
   font-weight: bold;
 }
 .d-block {
-  max-width: 40rem;
+  display: flex;
+  max-width: 60rem;
 }
 .stars {
   height: 30px;
@@ -18,8 +19,8 @@
   padding-top: 15px;
 }
 .tags {
-    display: flex;
-    padding-top: 10px;
+  display: flex;
+  padding-top: 10px;
 }
 .sales {
   color: grey;
@@ -34,7 +35,7 @@
   max-height: 40px;
 }
 .verticalLine {
-  border-left:solid 1px rgb(184, 181, 181);
+  border-left: solid 1px rgb(184, 181, 181);
   margin-left: 500px;
   height: 250px;
 }
