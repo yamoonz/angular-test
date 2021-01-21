@@ -42,14 +42,14 @@
 }
 .verticalLine {
   border-left:solid 1px rgb(190, 186, 186);
- margin-left: 21rem;
+ margin-left: 8.5rem;
   height: 250px;
 }
 .second{
   margin-bottom: 20rem; 
 }
 .lastUpdated{
-  padding-bottom: 30px;
+  padding-bottom: 35px;
 }
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
