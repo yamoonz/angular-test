@@ -1,4 +1,6 @@
 .container {
+    display:flexbox;
+    flex-direction: column;
   margin-top: 100px;
 }
 .product-name {
@@ -6,8 +8,7 @@
   font-weight: bold;
 }
 .d-block {
-  display: flex;
-  max-width: 60rem;
+  max-width: 20rem;
 }
 .stars {
   height: 30px;
@@ -19,7 +20,6 @@
   padding-top: 15px;
 }
 .tags {
-  display: flex;
   padding-top: 10px;
 }
 .sales {
@@ -35,7 +35,7 @@
   max-height: 40px;
 }
 .verticalLine {
-  border-left: solid 1px rgb(184, 181, 181);
-  margin-left: 500px;
+  border-left:solid 1px grey;
+ align-items: flex-end;
   height: 250px;
 }
