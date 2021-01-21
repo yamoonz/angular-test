@@ -46,11 +46,6 @@ export class AuthComponent {
         this.isLoading = false;
         this.router.navigate(['/profile']);
       },
-      // errorMessage => {
-      //   console.log(errorMessage);
-      //   this.error = errorMessage;
-      //   this.isLoading = false;
-      // }
     );
 
     form.reset();
