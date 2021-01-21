@@ -41,7 +41,7 @@ export class AppComponent {
       rating:"five stars (22) ",
       sales :"50 sales",
       lastUpdated:" last updated: 13 Jan 21",
-      imagePath:"https://i.pinimg.com/originals/f4/1a/17/f41a179d2fc15c79a65e81f3d3843a96.jpg",
+      imagePath:"https://www.halcyoninteriors.com/assets/IMG_4831-870x653.jpg",
     },
   
   ]

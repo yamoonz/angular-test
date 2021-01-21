@@ -1,5 +1,4 @@
 .container {
-    display:flexbox;
     flex-direction: column;
   margin-top: 100px;
 }
@@ -7,7 +6,7 @@
   color: black;
   font-weight: bold;
 }
-.d-block {
+.img-thumbnail {
   max-width: 20rem;
 }
 .stars {
@@ -36,6 +35,6 @@
 }
 .verticalLine {
   border-left:solid 1px grey;
- align-items: flex-end;
+ margin-left: 25rem;
   height: 250px;
 }
