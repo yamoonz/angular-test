@@ -1,6 +1,6 @@
+
 .container {
-    flex-direction: column;
-  margin-top: 100px;
+  margin-top: 10px;
 }
 .product-name {
   color: black;
