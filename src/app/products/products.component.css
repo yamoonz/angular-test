@@ -17,6 +17,7 @@
   font-size: 26px;
   font-weight: bold;
   padding-top: 15px;
+  margin-left: 60px;
 }
 .tags {
   padding-top: 10px;
@@ -24,13 +25,17 @@
 .sales {
   color: grey;
 }
+.preview{
+  background-color: rgb(216, 213, 213);
+  
+}
 .shoppingCart {
   max-height: 30px;
   margin-left: 10px;
 }
 
 .grey-heart {
-  margin-right: 220px;
+  margin-right: 150px;
   max-height: 40px;
 }
 .verticalLine {
