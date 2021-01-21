@@ -23,6 +23,8 @@
   padding-top: 10px;
 }
 .sales {
+  margin-left: 50px;
+  padding-top: 10px;
   color: grey;
 }
 .preview{
@@ -40,12 +42,14 @@
 }
 .verticalLine {
   border-left:solid 1px rgb(190, 186, 186);
- margin-left: 25rem;
+ margin-left: 21rem;
   height: 250px;
 }
 .second{
-  margin-bottom: 20rem;
-  
+  margin-bottom: 20rem; 
+}
+.lastUpdated{
+  padding-bottom: 30px;
 }
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */

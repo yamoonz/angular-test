@@ -36,7 +36,7 @@ export class AppComponent {
       name : "Special Offer",
       title : "Kitchen For Sell ",
       tags:"Kitchen, Foo, Bar ",
-      description:"Lorem SpumLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+      description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
       price:"999$",
       rating:"five stars (22) ",
       sales :"50 sales",

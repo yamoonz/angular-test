@@ -1,0 +1,18 @@
+-------------------- Auto-Git Log --------------------
+		Thu Jan 21 2021 16:31:15 GMT+0300 (Arabian Standard Time)
+------------------------------------------------------
+
+Modified files:
+* src/app/app.component.ts
+* src/app/products/products.component.css
+* src/app/products/products.component.html
+
+
+Created files:
+* .autogit/logs/log-21-0-2021-16-1-7.txt
+
+
+Deleted files:
+
+
+Renamed files:
