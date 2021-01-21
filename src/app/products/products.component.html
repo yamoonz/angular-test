@@ -1,41 +1,32 @@
 <div class="container">
     <div class="row" *ngFor="let product of products;">
         <div class="col-sm">
-            <div class="first-block">
-            <img src="{{product.imagePath}}" alt="{{product.name}}" class="img-thumbnail">
-            <p class="tags">{{product.tags}}</p>
-            <!-- <div class="verticalLine">
-            </div> -->
-        </div>
-        <div class="col-sm">
-            <h2 class="product-name"> {{products.name}}</h2>
-            <p>{{product.title}}</p>
-            <ul>
-                <li>{{ product.description}} </li>
-                <li>{{product.description}}</li>
-            </ul>
-        </div>
-        </div>
-        <div class="col-sm">
-            <div class="d-flex justify-content-end">
-                <img class="p-2 grey-heart" src="https://www.clipartkey.com/mpngs/m/129-1293437_heart-icon-grey-png.png"
-                    alt="grey-heart">
+                <img src="{{product.imagePath}}" alt="{{product.name}}" class="img-thumbnail">
+                <p class="tags">{{product.tags}}</p>
+            </div>
+            <div class="col-sm second">
+                <h2 class="product-name"> {{product.name}}</h2>
+                <p class="title">{{product.title}}</p>
+                <ul>
+                    <li>{{ product.description}} </li>
+                    <li>{{product.description}}</li>
+                </ul>
+            </div>
+
+            <div class="col-sm">
+                <div class="d-flex justify-content-end">
+                    <img class="p-2 grey-heart"
+                        src="https://www.clipartkey.com/mpngs/m/129-1293437_heart-icon-grey-png.png" alt="grey-heart">
+
+                </div>
+                <p class="price"> {{product.price}}</p>
+                <img src="https://i.imgur.com/rE08v8j.png" class="stars" alt="five stars">
+                <div>(22)</div>
+                <p class="sales">{{product.sales}} </p>
+                <p class="lastUpdated">{{product.lastUpdated}} </p>
+                <button class="btn"> Preview</button> <img class="shoppingCart"
+                    src="https://image.shutterstock.com/image-vector/vector-shopping-cart-icon-260nw-155241989.jpg">
+                <hr>
             </div>
         </div>
-        <!--
-        <div class="verticalLine">
-        </div>
-       
-           
-            <p class="price"> {{product.price}}</p>
-            <img src="https://i.imgur.com/rE08v8j.png" class="stars" alt="five stars">
-            <div>(22)</div>
-            <p class="sales">{{product.sales}} </p>
-            <p class="lastUpdated">{{product.lastUpdated}} </p>
-            <button class="btn btn-light preview"> Preview</button> <img class="shoppingCart"
-                src="https://image.shutterstock.com/image-vector/vector-shopping-cart-icon-260nw-155241989.jpg">
-            <hr> --> -->
-
-        </div>
     </div>
-</div>
